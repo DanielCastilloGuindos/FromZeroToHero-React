@@ -1,0 +1,104 @@
+{
+	"montajesdeexposiciones": {
+		"title":	"Montaje de exposiciones",
+		"description": "",
+		"images": [
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo_portada.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo1.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo2.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo3.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo4.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo5.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo6.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo7.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo8.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo9.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo10.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo11.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo12.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/exposiciones/expo13.jpg"
+		]
+	},
+	"exposicionesitinerantes": {
+		"title":	"Exposiciones itinerantes",
+		"description": "",
+		"images": [
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner_portada.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner1.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner2.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner3.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner4.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner5.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner6.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner7.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner8.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner9.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner10.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner11.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner12.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/itinerantes/itiner13.jpg"
+		]
+	},
+	"eventos": {
+		"title":	"Eventos",
+		"description": "Arte 19 ofrece el montaje de diversos tipos de eventos, vinculados a las necesidades de comunicación de empresas, instituciones y particulares. Construimos todo tipo de stands personalizados a medida de las necesidades del cliente, cubriendo los servicios integrales, desde el diseño, carpintería, pintura, electricidad y mobiliario, hasta la fabricación e instalación de todo tipo de pancartas, carteles y vinilos. Fabricación y montaje de arquitectura efímera - Entregas de premios- Fabricación de tarimas y photocall",
+		"images": [
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos_portada.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos1.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos2.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos3.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos4.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos5.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos6.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/eventos/eventos7.jpg"
+		]
+	},
+	"tallerdeenmarcado": {
+		"title":	"Taller de enmarcado",
+		"description": "",
+		"images": [
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller_portada.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller1.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller2.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller3.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller4.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller5.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller6.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/taller/taller7.jpg"
+		]
+	},
+	"enmarcados": {
+		"title":	"Enmarcados",
+		"description": "",
+		"images":	[
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc_portada.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc1.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc2.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc3.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc4.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc5.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc6.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc7.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc8.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc9.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc10.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/enmarcados/enmarc11.jpg"
+		]
+	},
+	"serviciodecorte": {
+		"title":	"Servicio de corte",
+		"description": "",
+		"images": [
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte_portada.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte1.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte2.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte3.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte4.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte5.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte6.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte7.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte8.jpg",
+			"https://arte19.com/assets/img/arte19/areas_trabajo/corte/corte9.jpg"
+		]
+	}
+}
