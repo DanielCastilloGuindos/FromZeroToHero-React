@@ -14,6 +14,8 @@ export const Workspace = () => {
 		navigate('/');
 	};
 
+	document.documentElement.scrollTop = 0;
+
 	return (
 		<main className="bg-zinc-800/95 min-h-screen pt-20 pb-8">
 			<header className="relative max-w-7xl px-6 sm:scroll-px-10">
@@ -21,6 +23,9 @@ export const Workspace = () => {
 					title={ data.title }
 					subtitle='Áreas de Trabajo'
 					extraClass='text-gray-100 sm:w-full'
+					extraStyleTitle={{
+						'view-transition-name': `title_${data.title.replaceAll(' ', '_')}`
+					}}
 					/>
 				<button
 					onClick={ handleReturn }
@@ -41,7 +46,11 @@ export const Workspace = () => {
 							<img
 								src={image}
 								key={image}
-								name={isFirstItem ? "cover" : undefined}
+								style={isFirstItem
+									? {
+										'view-transition-name': `image_${ data.title.replaceAll(' ', '_') }`
+									}
+									: undefined}
 								/>
 						)
 					})} 

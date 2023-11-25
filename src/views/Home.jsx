@@ -8,8 +8,24 @@ import { WorkspaceItem } from '../components/WorkspaceItem';
 import { CarouselSlide } from '../components/CarouselSlide';
 import { CounterItem } from '../components/CounterItem';
 import workspaceData from "../data/workspace.json";
+import { flushSync } from 'react-dom';
+import { useNavigate } from 'react-router-dom';
 
 export const Home = () => {
+	const navigate = useNavigate();
+	const navigateToWorkspace = (id) => {
+		if (!document.startViewTransition) {
+			navigate(`/workspace/${ id }`);
+			return;
+		}
+
+		document.startViewTransition(() => {
+			flushSync(() => {
+				navigate(`/workspace/${ id }`);
+			});
+		});
+	};
+
   const slides = [
     {
       background: '/images/carousel/panoramica1.jpg',
@@ -115,6 +131,7 @@ export const Home = () => {
 										return(
 											<WorkspaceItem
 												{...workspaceData[key]}
+												handleClick={ () => { navigateToWorkspace( key ) } }
 												link={ key }
 												key={ key }
 												subtitle='Click para más detalles'
