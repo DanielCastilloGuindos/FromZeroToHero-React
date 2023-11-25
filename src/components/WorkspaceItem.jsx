@@ -11,9 +11,9 @@ export const WorkspaceItem = ({ title, images, subtitle = '', link }) => {
 					alt=""
 					src={ portada }
 					/>
-				<figcaption className='absolute top-0 left-0 py-10 px-8 w-full h-full bg-teal-800 bg-opacity-0 group-hover:bg-opacity-50 text-white transition-all duration-500 group-hover:duration-200 delay-500 group-hover:delay-0 leading-[4rem]'>
-					<h5 className='text-[1.65rem] leading-9 tracking-wider font-bold uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-500'>{ title }</h5>
-					<span className='text-[0.95rem] font-[Helvetica] tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-500'>{ subtitle }</span>
+				<figcaption className='absolute top-0 left-0 py-10 px-8 w-full h-full flex flex-col justify-center sm:justify-start items-center sm:items-start bg-teal-800 bg-opacity-50 sm:bg-opacity-0 sm:group-hover:bg-opacity-50 text-white text-center sm:text-left transition-all duration-500 group-hover:duration-200 delay-500 group-hover:delay-0 leading-[4rem]'>
+					<h5 className='text-[1.65rem] leading-9 tracking-wider font-bold uppercase opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500'>{ title }</h5>
+					<span className='text-[0.95rem] font-[Helvetica] tracking-wider opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500'>{ subtitle }</span>
 				</figcaption>
 			</Link>
 		</figure>

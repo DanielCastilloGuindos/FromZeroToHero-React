@@ -16,34 +16,35 @@ export const Workspace = () => {
 
 	return (
 		<main className="bg-zinc-800/95 min-h-screen pt-20 pb-8">
-			<header className="max-w-7xl relative">
+			<header className="relative max-w-7xl px-6 sm:scroll-px-10">
 				<Title
 					title={ data.title }
 					subtitle='Áreas de Trabajo'
-					extraClass='text-gray-100'
+					extraClass='text-gray-100 sm:w-full'
 					/>
 				<button
 					onClick={ handleReturn }
-					className="relative w-12 h-12 border-2 border-white hover:border-orange-500 -rotate-45 hover:rotate-45 transition-all rounded-full group">
+					className="absolute top-1/4 sm:top-1/2 right-6 sm:right-16 -translate-y-1/2 w-6 sm:w-12 h-6 sm:h-12 border-2 border-white hover:border-orange-500 -rotate-45 hover:rotate-45 transition-all rounded-full group">
 					<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 h-[.1rem] bg-white group-hover:bg-orange-500 transition-all "></span>
 					<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 h-[.1rem] bg-white group-hover:bg-orange-500 rotate-90 transition-all "></span>
 				</button>
 
 			</header>
-			<article className='grid grid-cols-[28%_60%] gap-8 max-w-7xl justify-center items-start w-full mx-auto pt-24'>
-				<section className='max-w-3xl font-sans text-md text-gray-300 inset-52'>
+			<article className='grid grid-cols-1 sm:grid-cols-[28%_60%] gap-8 max-w-7xl justify-center items-start w-full mx-auto pt-24'>
+				<section className='max-w-3xl px-8 sm:px-0 font-sans text-md text-gray-300 inset-52'>
 					{ data.description || 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis exercitationem ab cupiditate ipsam neque sint quam id quo, consectetur enim placeat, impedit ad adipisci dignissimos saepe quae tempore animi? Ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis exercitationem ab cupiditate ipsam neque sint quam id quo, consectetur enim placeat, impedit ad adipisci dignissimos saepe quae tempore animi? Ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis exercitationem ab cupiditate ipsam neque sint quam id quo, consectetur enim placeat, impedit ad adipisci dignissimos saepe quae tempore animi? Ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis exercitationem ab cupiditate ipsam neque sint quam id quo, consectetur enim placeat, impedit ad adipisci dignissimos saepe quae tempore animi? Ipsam.' }
 				</section>
-				<section className="grid grid-cols-2 gap-8">
+				<section className="grid grid-cols-1 sm:grid-cols-2 gap-8">
 					{ data.images.map((image, index) => {
 						const isFirstItem = index == 0;
-						return(
+						return (
 							<img
-								src={ image }
-								key={ image }
+								src={image}
+								key={image}
+								name={isFirstItem ? "cover" : undefined}
 								/>
 						)
-					}) }
+					})} 
 				</section>
 			</article>
 		</main>

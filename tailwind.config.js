@@ -33,10 +33,53 @@ export default {
             transform: 'translateX(0%)',
           }
         },
+        topbarx: {
+          '0%': {
+            transform: 'rotate(0deg)',
+            left: '25%'
+          },
+          '50%': {
+              transform: 'rotate(68,25deg)',
+              left: '25%',
+              top: '50%',
+          },
+          '100%': {
+              transform: 'rotate(135deg)',
+              left: '25%',
+              top: '50%',
+          }
+        },
+        middlebarx: {
+          '0%': {
+            width: 'auto'
+          },
+          '100%': {
+            width: '0'
+          }
+        },
+        bottombarx: {
+          '0%': {
+            transform: 'rotate(0deg)',
+            left: '25%',
+          },
+          '50%': {
+              transform: 'rotate(-68,25deg)',
+              left: '25%',
+              top: '50%',
+          },
+          '100%': {
+              transform: 'rotate(-135deg)',
+              left: '25%',
+              top: '50%',
+          }
+        }
       },
       animation: {
-        lastSlideToLeft: 'lastSlideToLeft .8s linear 1',
-        newSlideToLeft:  'newSlideToLeft .8s linear 1',
+        lastSlideToLeft: 'lastSlideToLeft .8s linear 1s',
+        newSlideToLeft: 'newSlideToLeft .8s linear 1s',
+        topbarx: 'topbarx .5s 1s forwards',
+        middlebarx: 'middlebarx .0s 1s forwards',
+        bottombarx: 'bottombarx .5s 1s forwards',
       },
     },
   },

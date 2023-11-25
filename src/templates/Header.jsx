@@ -4,7 +4,7 @@ import { Parallax } from "../components/Parallax";
 export const Header = () => {
 
 	return (
-		<header className="h-screen">
+		<header className="h-[80vh] sm:h-screen">
 			<Navegation />
 			<Parallax
 				title='Arte19'

@@ -3,7 +3,7 @@ export const NavigationItem = ({
 	title
 }) => {
 	return (
-		<a href={path} className="text-[.75rem] font-['Verlag-Book'] font-semibold tracking-[.1rem] leading-[2.2rem] uppercase hover:text-[#c5a47e] transition-colors duration-300 shrink-0">
+		<a href={path} className="w-full sm:w-auto text-[.813rem] font-['Verlag-Book'] font-semibold uppercase hover:text-[#c5a47e] border-b sm:border-none transition-colors duration-300 shrink-0">
 			{title}
 		</a>
 	)
