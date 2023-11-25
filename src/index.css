@@ -4,26 +4,26 @@
 
 @font-face {
 	font-family: 'Verlag-Book';
-	src:url('/fonts/Verlag-Book.woff') format('woff');
+	src: url('/fonts/Verlag-Book.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Verlag-Book';
-	src:url('/fonts/Verlag-Bold.woff') format('woff');
+	src: url('/fonts/Verlag-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Slim-Joe';
-	src:url('/fonts/Slim-Joe.woff?d7yf1v') format('woff');
+	src: url('/fonts/Slim-Joe.woff?d7yf1v') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
-/* ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	background-color: #F5F5F5;
 }
@@ -43,5 +43,13 @@
 			rgba(255, 255, 255, .2) 75%,
 			transparent 75%,
 			transparent)
-} */
+}
 
+html::view-transition-group(*) {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}

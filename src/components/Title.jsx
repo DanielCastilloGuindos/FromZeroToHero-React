@@ -1,7 +1,8 @@
 export const Title = ({
 	title,
 	subtitle,
-  extraClass = ''
+  extraClass = '',
+  extraStyleTitle= {}
 }) => {
 	return (
 		<header
@@ -11,7 +12,9 @@ export const Title = ({
           { subtitle }
         </h4>
   
-        <h3 className="text-2xl sm:text-4xl tracking-wider font-bold uppercase">
+        <h3
+          className="text-2xl sm:text-4xl tracking-wider font-bold uppercase"
+          style={...extraStyleTitle}>
           { title }
         </h3>
   
