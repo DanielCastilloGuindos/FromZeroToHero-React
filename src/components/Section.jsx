@@ -8,7 +8,7 @@ export const Section = ({ id, title, subtitle, extraClass='', extraTitleClass = 
     extraClass={ extraTitleClass }/>;
 
   return (
-    <section className={`flex flex-col justify-center items-center gap-8 w-full mx-auto pt-20 mt-12 ${ extraClass }`} id={ id }>
+    <section className={`flex flex-col justify-center items-center gap-4 sm:gap-8 w-full mx-auto pt-8 sm:pt-20 mt-6 sm:mt-12 ${ extraClass }`} id={ id }>
       {title && titleElement}
       
       { children }
