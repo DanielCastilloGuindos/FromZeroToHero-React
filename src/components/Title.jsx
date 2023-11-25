@@ -14,7 +14,7 @@ export const Title = ({
   
         <h3
           className="text-2xl sm:text-4xl tracking-wider font-bold uppercase"
-          style={...extraStyleTitle}>
+          style={extraStyleTitle}>
           { title }
         </h3>
   
