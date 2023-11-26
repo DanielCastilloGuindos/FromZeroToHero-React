@@ -1,5 +1,5 @@
 import { Title } from "../components/Title";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import workspaceData from "../data/workspace.json";
 
 export const Workspace = () => {
@@ -24,7 +24,7 @@ export const Workspace = () => {
 					subtitle='Áreas de Trabajo'
 					extraClass='text-gray-100 sm:w-full'
 					extraStyleTitle={{
-						'view-transition-name': `title_${data.title.replaceAll(' ', '_')}`
+						'viewTransitionName': `title_${data.title.replaceAll(' ', '_')}`
 					}}
 					/>
 				<button
@@ -48,7 +48,7 @@ export const Workspace = () => {
 								key={image}
 								style={isFirstItem
 									? {
-										'view-transition-name': `image_${ data.title.replaceAll(' ', '_') }`
+										'viewTransitionName': `image_${ data.title.replaceAll(' ', '_') }`
 									}
 									: undefined}
 								/>

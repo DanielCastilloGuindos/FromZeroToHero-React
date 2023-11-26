@@ -12,7 +12,7 @@ export const WorkspaceItem = ({ title, images, subtitle = '', handleClick, link 
 				<img
 					className='w-full object-cover'
 					style={{
-						'view-transition-name': `image_${title.replaceAll(' ', '_')}`
+						'viewTransitionName': `image_${title.replaceAll(' ', '_')}`
 					}}
 					alt=""
 					src={ portada }
@@ -21,7 +21,7 @@ export const WorkspaceItem = ({ title, images, subtitle = '', handleClick, link 
 					<h5
 						className='text-[1.65rem] leading-9 tracking-wider font-bold uppercase opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500'
 						style={{
-							'view-transition-name': `title_${title.replaceAll(' ', '_')}`
+							'viewTransitionName': `title_${title.replaceAll(' ', '_')}`
 						}}
 					>{ title }</h5>
 					<span className='text-[0.95rem] font-[Helvetica] tracking-wider opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500'>{ subtitle }</span>
