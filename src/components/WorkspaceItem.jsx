@@ -14,7 +14,7 @@ export const WorkspaceItem = ({ title, images, subtitle = '', handleClick, link 
 					style={{
 						'viewTransitionName': `image_${title.replaceAll(' ', '_')}`
 					}}
-					alt=""
+					alt={`Imagen de ${ title }`}
 					src={ portada }
 					/>
 				<figcaption className='absolute top-0 left-0 py-10 px-8 w-full h-full flex flex-col justify-center sm:justify-start items-center sm:items-start bg-teal-800 bg-opacity-50 sm:bg-opacity-0 sm:group-hover:bg-opacity-50 text-white text-center sm:text-left transition-all duration-500 group-hover:duration-200 delay-500 group-hover:delay-0 leading-[4rem]'>

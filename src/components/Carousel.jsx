@@ -37,11 +37,13 @@ export const Carousel = ({ children, intervalTime= 8000 }) => {
 
 			<div className="absolute top-0 left-0 w-full h-full grid grid-flow-col">
 				<button
+					id="arrowLeft"
 					onClick={ handlePrevSlide }
-					className="cursor-[url(/images/carousel/arrow-left.png),_pointer]"></button>
+					className="cursor-[url(/images/carousel/arrow-left.png),_pointer] text-transparent">arrowLeft</button>
 				<button
+					id="arrowRigth"
 					onClick={ handleNextSlide }
-					className="cursor-[url(/images/carousel/arrow-right.png),_pointer]"></button>
+					className="cursor-[url(/images/carousel/arrow-right.png),_pointer] text-transparent">arrowRigth</button>
 			</div>
     </section>
 	);

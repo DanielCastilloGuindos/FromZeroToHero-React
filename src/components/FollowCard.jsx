@@ -8,7 +8,7 @@ export const FollowCard = ( { name, nickname, url, isFollowing } ) => {
 				<img
 					style={{ borderRadius: "50%", objectFit: "cover", accentColor: "red" }}
 					src={ url }
-					alt=""
+					alt={`Imagen de ${name}`}
 					width={50}
 					height={50} />
 				<div style={{ display: "flex", flexDirection: "column",	color: "white"}}>

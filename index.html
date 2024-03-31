@@ -2,36 +2,35 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="view-transition" content="same-origin">
+    <link rel="canonical" href="https://arte19.com/"/>
     <title>Arte 19</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Web de Arte 19. Empresa especializada en enmarcado, montaje de exposiciones y eventos. Arte 19 cuenta con taller propio.">
+    <meta name="keywords" content="enmarcado, enmarcación, enmarcacion, exposiciones, exposicion, exposición, montaje, evento, taller, madrid, arte, arte 19">
+    <meta name="robots" content="index,follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="language" content="es">
+    <meta name="revisit-after" content="1 month">
+    <meta name="rating" content="General">
+    <meta name="author" content="Arte 19">
+    <meta name="owner" content="Arte 19">
+    <!-- Etiqueta meta con la política de seguridad de contenido (CSP) -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' https://maps.googleapis.com;
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data: https://arte19.com/ https://maps.googleapis.com;
+        frame-src 'self' data: https://www.google.com/;
+      "
+    />
   </head>
   <body class="font-['Verlag-Book'] subpixel-antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      // if (document.startViewTrransition) {
-      //   window.navigation.addEventListener('navigate', (event) => {
-      //     const toUrl = new URL(event.destination.url);
-  
-      //     if ( location.origin !== toUrl.origin ) return;
-  
-      //     event.intercept({
-      //       async handle () {
-  
-      //         const response = await fetch( toUrl.pathname );
-      //         const text = await response.text();
-      //         const [,data] = text.math(/<body[^>]*>([\s\S]*)<\/body>/i);
-  
-      //         document.startViewTransition(() => {
-      //           document.body.innerHTML = data;
-      //           document.documentElement.scrollTop = 0;
-      //         })
-      //       }
-      //     });
-      //   })
-      // }
-    </script>
   </body>
 </html>

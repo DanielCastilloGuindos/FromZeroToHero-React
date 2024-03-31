@@ -167,7 +167,7 @@ export const Home = () => {
 								<img
 									key={ dataClient }
 									src={ dataClient }
-									alt=""
+									alt={`Imagen de ${ dataClient }`}
 									width='120'
 									height='65' />
 							) }
@@ -176,7 +176,7 @@ export const Home = () => {
 					<Section
 						title='Algunas cifras'
 						subtitle='Los números no mienten'
-						extraClass='pb-20 bg-[url(/images/parallax.jpg)] bg-no-repeat bg-cover bg-center bg-fixed backdrop-contrast-150 before:w-full before:h-full before:bg-[#333]/60 before:absolute before:top-0 before:left-0 before:-z-10'
+						extraClass='pb-20 bg-[url(/images/parallax.jpg)] bg-no-repeat bg-cover bg-center bg-fixed backdrop-contrast-150 before:w-full before:h-full before:bg-gradient-center before:bg-center before:bg-2em before:absolute before:top-0 before:left-0 before:-z-10'
 						extraTitleClass='text-white'>
 							<div className='grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-20 max-w-6xl text-white'>
 								{ numbersData.map(data => {
@@ -189,9 +189,10 @@ export const Home = () => {
 						subtitle='No te quedes con la duda'>
 							<div className='grid grid-cols-1 sm:grid-cols-[65%_35%] w-full border-t border-gray-200'>
 								<iframe
+									title='Mapa de Google para visualizar donde se ubica Arte19'
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.36621234067!2d-3.765263670713495!3d40.37857549165047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41884848a07e45%3A0x51008829fa8356d3!2sCalle+de+la+Casuarina%2C+20%2C+28044+Madrid!5e0!3m2!1ses!2ses!4v1502300703480"
 									width="100%"
-									height="570px"
+									height="570"
 									className='border-0'></iframe>
 
 								<aside className='grid justify-center items-center gap-6 my-6'>

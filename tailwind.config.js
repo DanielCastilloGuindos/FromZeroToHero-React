@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-center': 'radial-gradient(circle at center, #333333d4, #0000007a)',
+      },
+      backgroundSize: {
+        '2em': '.2em .2em',
+      },
       keyframes: {
         lastSlideToLeft: {
           '0%': {
